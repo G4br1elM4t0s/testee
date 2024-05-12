@@ -1,6 +1,6 @@
 REM Don't edit these values unless you know what you are doing.
-set INSTALL_JAR=forge-1.16.5-36.2.35-installer.jar
-set SERVER_JAR=forge-1.16.5-36.2.35.jar
+set INSTALL_JAR=forge-1.12.2-14.23.5.2860-installer.jar
+set SERVER_JAR=forge-1.12.2-14.23.5.2860.jar
 
 REM You can edit these values if you wish.
 set MIN_RAM=1024M

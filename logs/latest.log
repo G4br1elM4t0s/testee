@@ -1,232 +1,454 @@
-[12May2024 00:38:40.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[12May2024 00:38:40.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.22 by Ubuntu
-[12May2024 00:38:41.134] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[12May2024 00:38:41.226] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/home/gabriel/testee/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[12May2024 00:38:41.875] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12May2024 00:38:41.995] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12May2024 00:38:42.009] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12May2024 00:38:42.025] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12May2024 00:38:42.041] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12May2024 00:38:43.360] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[12May2024 00:39:00.796] [modloading-worker-6/INFO] [Pixelmon/]: Patched lifecycle fields.
-[12May2024 00:39:00.799] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
-[12May2024 00:39:00.972] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
-[12May2024 00:39:23.679] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
-[12May2024 00:39:24.885] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
-[12May2024 00:39:25.477] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
-[12May2024 00:39:25.874] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
-[12May2024 00:39:25.953] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
-[12May2024 00:39:26.141] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
-[12May2024 00:39:29.578] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
-[12May2024 00:39:29.592] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
-[12May2024 00:39:29.672] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
-[12May2024 00:39:29.747] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
-[12May2024 00:39:30.209] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
-[12May2024 00:39:30.213] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
-[12May2024 00:39:30.730] [modloading-worker-5/INFO] [Pixelmon TCG/]: Loading TCG version 9.1.11
-[12May2024 00:39:30.738] [modloading-worker-4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Registering forge reset packet
-[12May2024 00:39:30.748] [modloading-worker-3/INFO] [Pixelmon/]: Loading Pixelmon version 9.1.11
-[12May2024 00:39:30.746] [modloading-worker-4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Registered forge reset packet
-[12May2024 00:39:30.784] [modloading-worker-4/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
-[12May2024 00:39:30.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12May2024 00:39:32.842] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35 Target: 36.2.42
-[12May2024 00:39:32.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[12May2024 00:39:32.900] [modloading-worker-5/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.1.11
-[12May2024 00:39:33.529] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.lang.NullPointerException: null
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
-[12May2024 00:39:33.541] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[12May2024 00:39:34.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pixelmon] Found status: UP_TO_DATE Current: 9.1.11 Target: null
-[12May2024 00:39:34.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcg] Starting version check at https://reforged.gg/forge/update.json
-[12May2024 00:39:35.044] [modloading-worker-3/INFO] [Pixelmon/]: Loaded Advancements
-[12May2024 00:39:35.177] [modloading-worker-3/INFO] [Pixelmon/]: Started the async storage scheduler.
-[12May2024 00:39:35.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcg] Found status: UP_TO_DATE Current: 9.1.11 Target: null
-[12May2024 00:39:36.165] [main/INFO] [journeymap/]: Initializing Packet Registries
-[12May2024 00:39:36.638] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/Atlases for invalid dist DEDICATED_SERVER
-[12May2024 00:39:37.747] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
-[12May2024 00:39:37.779] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
-[12May2024 00:39:37.789] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
-[12May2024 00:39:37.808] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
-[12May2024 00:39:44.368] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12May2024 00:39:45.228] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [spectate, ] and [spectate, target] with inputs: [words with spaces, "and symbols", word]
-[12May2024 00:39:45.230] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [spectate, target] and [spectate, ] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12May2024 00:39:45.236] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12May2024 00:39:45.239] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12May2024 00:39:45.240] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12May2024 00:39:45.244] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12May2024 00:39:45.247] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12May2024 00:39:45.250] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
-[12May2024 00:39:45.251] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
-[12May2024 00:39:45.439] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-universal.jar, journeymap-1.16.5-5.8.3.jar, Pixelmon-1.16.5-9.1.11-server.jar, byg-1.3.6.jar, ExplorersCompass-1.16.5-1.1.2-forge.jar, NaturesCompass-1.16.5-1.9.1-forge.jar
-[12May2024 00:39:47.027] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 8 recipes
-[12May2024 00:39:47.807] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1975 advancements
-[12May2024 00:39:48.698] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.712] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.714] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.716] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.742] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.758] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.760] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.778] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.798] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.810] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.812] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.824] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.876] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.902] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.947] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:48.969] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.014] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.040] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.043] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.049] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.071] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.090] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.092] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.121] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.125] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.132] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.136] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.139] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.146] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.165] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.173] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.181] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.182] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.208] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.240] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.245] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.254] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.279] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.280] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.289] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.293] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.316] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.321] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.326] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.354] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.358] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Blood Moon
-[12May2024 00:39:49.358] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.372] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.380] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.392] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.395] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.397] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.401] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.427] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.429] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.430] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.438] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.440] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.458] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.479] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.484] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Syrup Bomb
-[12May2024 00:39:49.485] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.503] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.505] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.515] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.516] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.518] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.523] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.524] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.554] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.558] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.564] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.600] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.615] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.653] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.659] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.674] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.702] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.716] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.718] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.729] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.737] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.750] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.753] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.754] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.757] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.759] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.787] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.801] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.803] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Ivy Cudgel
-[12May2024 00:39:49.804] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.819] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.833] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.842] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.846] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.866] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.869] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.872] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.873] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.880] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Matcha Gotcha
-[12May2024 00:39:49.880] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.882] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.886] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.911] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.940] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.950] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.967] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.968] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.969] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.977] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.992] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:49.997] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.019] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.021] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.024] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.054] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.058] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.061] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.062] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.072] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.073] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.100] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.106] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.108] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.121] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.151] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.155] [Worker-Main-10/WARN] [Pixelmon/]: Attack name invalid: Tera Blast
-[12May2024 00:39:50.553] [Worker-Main-10/INFO] [Pixelmon/]: Registering Better Spawner.
-[12May2024 00:39:50.762] [Worker-Main-10/INFO] [Pixelmon/]: Registering trades.
-[12May2024 00:39:50.784] [Worker-Main-10/INFO] [Pixelmon/]: Registering shop items.
-[12May2024 00:39:57.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[12May2024 00:39:57.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12May2024 00:39:57.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12May2024 00:39:57.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12May2024 00:39:57.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12May2024 00:39:57.179] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[12May2024 00:39:57.374] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12May2024 00:39:57.375] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12May2024 00:39:57.375] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12May2024 00:39:57.376] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12May2024 00:39:57.416] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[12May2024 00:39:57.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12May2024 00:39:57.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12May2024 00:39:59.024] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:39:59.024] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:39:59.025] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.404] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.410] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.410] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.411] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.411] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.411] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.412] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.412] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.413] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.414] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.415] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12May2024 00:40:04.806] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[12May2024 00:40:04.947] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7281 ms
-[12May2024 00:40:04.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.546s)! For help, type "help"
-[12May2024 00:40:05.103] [Server thread/INFO] [Pixelmon/]: Datapacks found: vanilla,mod:forge,mod:journeymap,mod:pixelmon,mod:byg,mod:explorerscompass,mod:naturescompass
-[12May2024 00:40:05.370] [Server thread/WARN] [net.minecraft.tileentity.TileEntity/]: Block entity invalid: pixelmon:pixelmon_spawner @ BlockPos{x=-97, y=43, z=34}
-[12May2024 00:40:05.370] [Server thread/WARN] [net.minecraft.tileentity.TileEntity/]: Block entity invalid: pixelmon:pixelmon_spawner @ BlockPos{x=-36, y=39, z=-118}
-[12May2024 00:43:40.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12May2024 00:43:40.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12May2024 00:43:40.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12May2024 00:43:40.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pixelmon Generations]'/minecraft:overworld
+[01:24:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:24:21] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[01:24:21] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_411, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre-1.8
+[01:24:21] [main/INFO] [FML]: Searching C:\Users\gabri\OneDrive\Área de Trabalho\pixelTrollsFriends\serverpack\.\mods for mods
+[01:24:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:24:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:24:22] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[01:24:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:24:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:24:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:24:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:24:23] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[01:24:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[01:24:26] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[01:24:26] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:24:26] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:24:26] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:24:27] [Server thread/INFO] [FML]: Searching C:\Users\gabri\OneDrive\Área de Trabalho\pixelTrollsFriends\serverpack\.\mods for mods
+[01:24:28] [Server thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[01:24:28] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[01:24:28] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
+[01:24:28] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[01:24:28] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg] at CLIENT
+[01:24:28] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg] at SERVER
+[01:24:29] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:24:29] [Server thread/INFO] [FML]: Found 1189 ObjectHolder annotations
+[01:24:29] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:24:29] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:24:29] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:24:29] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:24:30] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[01:24:30] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
+[01:24:30] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
+[01:24:30] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[01:24:30] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[01:24:31] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.3
+[01:24:32] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[01:24:32] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[01:24:33] [Server thread/INFO] [Gameshark]: Successfully read config.
+[01:24:33] [Server thread/INFO] [Gameshark]: Successfully saved config.
+[01:24:34] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:34] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:34] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:34] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:34] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:34] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:34] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:34] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:34] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:24:34] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[01:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[01:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[01:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[01:24:34] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[01:24:35] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:35] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:35] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
+[01:24:35] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[01:24:35] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[01:24:35] [Server thread/INFO] [Pixelmon]: Registering structures.
+[01:24:36] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[01:24:36] [Server thread/INFO] [Pixelmon]: Item not found: minecraft:salmon in pokedrops.json
+[01:24:36] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[01:24:36] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Infernal Parade
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Victory Dance
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
+[01:24:36] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Mountain Gale
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: High Horse
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Stone Axe
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Headlong Rush
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Dire Claw
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
+[01:24:37] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[01:24:37] [Server thread/INFO] [Pixelmon]: Registering quests.
+[01:24:37] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[01:24:37] [Server thread/INFO] [Gameshark]: initializing Gameshark v6.0.6
+[01:24:37] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.3-universal
+[01:24:38] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:24:38] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:24:38] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[01:24:39] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[01:24:39] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
+[01:24:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[01:24:39] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod chunkanimator which appears to be missing, things may not work well
+[01:24:39] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod jei which appears to be missing, things may not work well
+[01:24:39] [Server thread/INFO] [FML.ModTracker]: This world was saved with mod pixelmon version 8.4.0 and it is now at version 8.4.3, things may not work well
+[01:24:39] [Server thread/INFO] [FML.ModTracker]: This world was saved with mod tcg version 1.12.2-8.3.0-8.0.0-universal and it is now at version 1.12.2-8.4.3-universal, things may not work well
+[01:24:39] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod worldedit which appears to be missing, things may not work well
+[01:24:39] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlefloor
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_swablu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_kecleon
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_rug
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pink_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_umbrella
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_meowth
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_azurill
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_wynaut
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_vending_machine
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:icebrick
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_duskull
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:white_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewhite
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:icepillartop
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_ditto
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_chikorita
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_torchic
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_jigglypuff
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:yellow_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:zygardemachine
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_pikachu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_substitute
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_pikachu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_vending_machine
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_cushion_chair
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_lapras
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_registeel
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:icepillarside
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_seedot
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_marill
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_mudkip
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_cushion_chair
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewall
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_gulpin
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_pichu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:ultra_sand
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlebrick2
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_clefairy
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_substitute
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_venusaur
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:blue_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_regice
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_meowth
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:icestoneore
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_marill
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_gulpin
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_regirock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlegrey
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_clock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_clefairy
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewall4
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewall2
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewall3
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_regice
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_treecko
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_water_float
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:bluepicketfence
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlebrick
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:brown_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_blastoise
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_snorlax
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pc_block
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_ditto
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_mudkip
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_chikorita
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:purple_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_togepi
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_venusaur
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_torchic
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:gray_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_lotad
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_duskull
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_wynaut
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_totodile
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_regirock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_cyndaquil
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:orange_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlewhite2
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_cyndaquil
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_clock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_clock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlegrey2
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castleblockcracked
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_wailmer
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_umbrella
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:black_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_charizard
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_swablu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_seedot
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_blastoise
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_baltoy
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_vending_machine
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_water_float
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_rug
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_rhydon
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lime_water_float
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_jigglypuff
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_smoochum
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_baltoy
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_totodile
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_wailmer
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castlepillar
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_skitty
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_cushion_chair
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:cyan_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_skitty
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightgrey_rug
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:green_fossil_display
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:castleblock
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_rhydon
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:whitepillar
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_charizard
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_lotad
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_smoochum
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_pichu
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:ultra_sandstone
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_azurill
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_treecko
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_lapras
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:lightblue_umbrella
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:ultra_pillar
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:shinypokedoll_kecleon
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:celestial_altar
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_togepi
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_registeel
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:pokedoll_snorlax
+[01:24:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world pixelmon:ultra
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_umbran Expected: 4220 Got: 4911
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:blue_dye Expected: 4252 Got: 4912
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_hellbark Expected: 4229 Got: 4913
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_jacaranda Expected: 4230 Got: 4914
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:pine_stairs Expected: 4143 Got: 4915
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ebony_door Expected: 4197 Got: 4916
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:brown_dye Expected: 4253 Got: 4917
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:planks_0 Expected: 4132 Got: 4919
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:umbran_fence_gate Expected: 4169 Got: 4920
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:gem Expected: 4240 Got: 4921
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_sacred_oak Expected: 4218 Got: 4922
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hard_ice Expected: 4105 Got: 4924
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:flower_1 Expected: 4212 Got: 4926
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:flower_0 Expected: 4211 Got: 4927
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_palm Expected: 4225 Got: 4983
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:magic_fence_gate Expected: 4172 Got: 4984
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_0 Expected: 4125 Got: 4985
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hellbark_stairs Expected: 4144 Got: 4986
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jacaranda_fence_gate Expected: 4179 Got: 4987
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_mangrove Expected: 4224 Got: 4988
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mangrove_stairs Expected: 4139 Got: 4989
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hellbark_door Expected: 4194 Got: 4990
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hive Expected: 4113 Got: 4991
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:seaweed Expected: 4200 Got: 4992
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:pine_fence_gate Expected: 4177 Got: 4993
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:eucalyptus_fence_gate Expected: 4182 Got: 4994
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: pixelmon:adamant_crystal Expected: 4899 Got: 4995
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mud_brick_stairs Expected: 4118 Got: 4996
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:magic_door Expected: 4188 Got: 4997
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:bamboo_thatching Expected: 4116 Got: 4998
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_5 Expected: 4130 Got: 4999
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_6 Expected: 4131 Got: 5000
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_3 Expected: 4128 Got: 5001
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_4 Expected: 4129 Got: 5002
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hellbark_fence Expected: 4162 Got: 5003
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_1 Expected: 4126 Got: 5004
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mudball Expected: 4236 Got: 5005
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:leaves_2 Expected: 4127 Got: 5006
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:umbran_fence Expected: 4153 Got: 5007
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sacred_oak_fence_gate Expected: 4167 Got: 5008
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_fir Expected: 4221 Got: 5009
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ash_block Expected: 4106 Got: 5010
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:white_sand Expected: 4101 Got: 5011
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:shroompowder Expected: 4250 Got: 5012
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:redwood_fence_gate Expected: 4175 Got: 5013
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: pixelmon:lustrous_globe Expected: 4900 Got: 5014
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:honeycomb Expected: 4248 Got: 5015
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:berries Expected: 4244 Got: 5016
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:cherry_fence_gate Expected: 4168 Got: 5017
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: pixelmon:griseous_core Expected: 4901 Got: 5018
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_magic Expected: 4223 Got: 5019
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:flesh Expected: 4108 Got: 5020
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:willow_fence_gate Expected: 4176 Got: 5021
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:willow_stairs Expected: 4142 Got: 5022
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:fir_fence_gate Expected: 4170 Got: 5023
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:biome_finder Expected: 4234 Got: 5024
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jar_empty Expected: 4217 Got: 5025
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mud_brick Expected: 4237 Got: 5026
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:dirt Expected: 4097 Got: 5027
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:bamboo Expected: 4202 Got: 5028
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:willow_fence Expected: 4160 Got: 5029
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:gem_block Expected: 4112 Got: 5030
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mangrove_fence Expected: 4157 Got: 5034
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: pixelmon:peat_block Expected: 4898 Got: 5035
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mushroom Expected: 4209 Got: 5036
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ethereal_fence_gate Expected: 4171 Got: 5037
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_pine Expected: 4228 Got: 5038
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:cherry_door Expected: 4184 Got: 5039
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:crystal_shard Expected: 4242 Got: 5040
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:waterlily Expected: 4201 Got: 5041
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:eucalyptus_fence Expected: 4166 Got: 5042
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:fir_stairs Expected: 4136 Got: 5043
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ebony_stairs Expected: 4147 Got: 5044
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sapling_1 Expected: 4204 Got: 5050
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sapling_2 Expected: 4205 Got: 5052
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:terrarium Expected: 4215 Got: 5055
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sapling_0 Expected: 4203 Got: 5057
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: forge:bucketfilled Expected: 4612 Got: 5062
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ebony_fence_gate Expected: 4181 Got: 5063
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_eucalyptus Expected: 4233 Got: 5066
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:eucalyptus_door Expected: 4198 Got: 5070
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:green_dye Expected: 4254 Got: 5075
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:umbran_stairs Expected: 4135 Got: 5077
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:record_wanderer Expected: 4235 Got: 5078
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:grass_path Expected: 4098 Got: 5082
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:redwood_fence Expected: 4159 Got: 5085
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:fleshchunk Expected: 4239 Got: 5087
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ash Expected: 4238 Got: 5093
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:log_4 Expected: 4124 Got: 5094
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mud_brick_block Expected: 4117 Got: 5096
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:log_3 Expected: 4123 Got: 5102
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:log_2 Expected: 4122 Got: 5103
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jacaranda_stairs Expected: 4145 Got: 5106
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:log_1 Expected: 4121 Got: 5111
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_cherry Expected: 4219 Got: 5113
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:hellbark_fence_gate Expected: 4178 Got: 5117
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sacred_oak_fence Expected: 4151 Got: 5120
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:blue_fire Expected: 4115 Got: 5122
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:plant_1 Expected: 4207 Got: 5123
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:plant_0 Expected: 4206 Got: 5126
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:white_sandstone Expected: 4102 Got: 5131
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:crystal Expected: 4109 Got: 5132
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:palm_door Expected: 4190 Got: 5134
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:cherry_stairs Expected: 4134 Got: 5158
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:palm_fence Expected: 4158 Got: 5159
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mahogany_door Expected: 4196 Got: 5161
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_ethereal Expected: 4222 Got: 5163
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ethereal_fence Expected: 4155 Got: 5167
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:black_dye Expected: 4256 Got: 5171
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:white_sandstone_stairs Expected: 4103 Got: 5182
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:eucalyptus_stairs Expected: 4148 Got: 5186
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mangrove_door Expected: 4189 Got: 5202
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:gem_ore Expected: 4111 Got: 5207
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ricebowl Expected: 4251 Got: 5214
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:double_plant Expected: 4208 Got: 5216
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:log_0 Expected: 4120 Got: 5218
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:pine_fence Expected: 4161 Got: 5224
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:grass Expected: 4096 Got: 5242
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:dried_sand Expected: 4104 Got: 5244
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:magic_stairs Expected: 4138 Got: 5250
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ethereal_door Expected: 4187 Got: 5256
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:terrestrial_artifact Expected: 4241 Got: 5260
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:white_dye Expected: 4255 Got: 5264
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:pear Expected: 4245 Got: 5267
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jar_filled Expected: 4216 Got: 5270
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:willow_door Expected: 4192 Got: 5274
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ebony_fence Expected: 4165 Got: 5276
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:filled_honeycomb Expected: 4249 Got: 5283
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_mahogany Expected: 4231 Got: 5295
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_ebony Expected: 4232 Got: 5296
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:other_slab Expected: 4119 Got: 5300
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sacred_oak_stairs Expected: 4133 Got: 5301
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mud Expected: 4107 Got: 5396
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:willow_vine Expected: 4214 Got: 5408
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:bramble_plant Expected: 4210 Got: 5409
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:umbran_door Expected: 4185 Got: 5410
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:persimmon Expected: 4247 Got: 5413
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:magic_fence Expected: 4156 Got: 5414
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mangrove_fence_gate Expected: 4173 Got: 5417
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mahogany_fence Expected: 4164 Got: 5419
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:biome_essence Expected: 4243 Got: 5420
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jacaranda_fence Expected: 4163 Got: 5422
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:redwood_stairs Expected: 4141 Got: 5423
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:peach Expected: 4246 Got: 5425
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_redwood Expected: 4226 Got: 5426
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:sacred_oak_door Expected: 4183 Got: 5450
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:earth Expected: 4257 Got: 5451
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:honey_block Expected: 4114 Got: 5452
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mahogany_stairs Expected: 4146 Got: 5457
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:wood_slab_0 Expected: 4149 Got: 5458
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:mahogany_fence_gate Expected: 4180 Got: 5460
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:cherry_fence Expected: 4152 Got: 5461
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:wood_slab_1 Expected: 4150 Got: 5462
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:palm_stairs Expected: 4140 Got: 5463
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:pine_door Expected: 4193 Got: 5464
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:coral Expected: 4199 Got: 5466
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:redwood_door Expected: 4191 Got: 5467
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:fir_fence Expected: 4154 Got: 5468
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:jacaranda_door Expected: 4195 Got: 5471
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:biome_block Expected: 4110 Got: 5477
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ivy Expected: 4213 Got: 5478
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: naturescompass:naturescompass Expected: 5795 Got: 5479
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:farmland_0 Expected: 4099 Got: 5481
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:farmland_1 Expected: 4100 Got: 5483
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:palm_fence_gate Expected: 4174 Got: 5484
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:boat_willow Expected: 4227 Got: 5485
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:ethereal_stairs Expected: 4137 Got: 5486
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: pixelmon:black_augurite Expected: 4897 Got: 5487
+[01:24:39] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: biomesoplenty:fir_door Expected: 4186 Got: 5490
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:alps Expected: 43 Got: 41
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:white_beach Expected: 41 Got: 48
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:bamboo_forest Expected: 44 Got: 50
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:cherry_blossom_grove Expected: 50 Got: 53
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:crag Expected: 53 Got: 63
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:brushland Expected: 48 Got: 64
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:lavender_fields Expected: 63 Got: 81
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:sacred_springs Expected: 81 Got: 116
+[01:24:39] [Server thread/WARN] [FML]: Registry Biome: Object did not get ID it asked for. Name: biomesoplenty:lush_desert Expected: 64 Got: 117
+[01:24:39] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: biomesoplenty:records.wanderer Expected: 551 Got: 1078
+[01:24:39] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: biomesoplenty:entity.biomesoplenty.wasp.ambient Expected: 549 Got: 1084
+[01:24:39] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: biomesoplenty:entity.biomesoplenty.wasp.hurt Expected: 550 Got: 1085
+[01:24:39] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: biomesoplenty:wasp Expected: 39 Got: 82
+[01:24:39] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: biomesoplenty:bop_boat Expected: 38 Got: 86
+[01:24:39] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: biomesoplenty:mudball Expected: 0 Got: 88
+[01:24:40] [Server thread/INFO] [FML]: Applying holder lookups
+[01:24:40] [Server thread/INFO] [FML]: Holder lookups applied
+[01:24:40] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@128d85e)
+[01:24:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 946 advancements
+[01:24:40] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@128d85e)
+[01:24:40] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[01:24:40] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@128d85e)
+[01:24:40] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@128d85e)
+[01:24:40] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@128d85e)
+[01:24:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[01:24:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 87%
+[01:24:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2,468s)! For help, type "help" or "?"
+[01:24:42] [Server thread/INFO] [journeymap]: global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
+[01:24:42] [Server thread/INFO] [journeymap]: global (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.global.config
+[01:24:42] [Server thread/INFO] [journeymap]: default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
+[01:24:42] [Server thread/INFO] [journeymap]: default (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.default.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim0 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim0.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim1.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim-1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim-1.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim72 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim72.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim72 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim72.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim73 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim73.config
+[01:24:42] [Server thread/INFO] [journeymap]: dim73 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim73.config
+[01:24:42] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:24:42] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:24:42] [Server thread/INFO] [FML]: Unloading dimension 72
+[01:24:42] [Server thread/INFO] [FML]: Unloading dimension 73
+[01:24:55] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:24:55] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
